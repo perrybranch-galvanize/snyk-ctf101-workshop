@@ -1,6 +1,11 @@
+---
 tasks:
   - init: |
       npm install -g snyk
       pyenv install
     command: |
       echo 'TODO: start app'
+
+vscode:
+  extensions:
+    - ms-python.python
